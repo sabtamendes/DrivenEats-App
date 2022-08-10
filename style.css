@@ -61,7 +61,9 @@
         color: #333333;
     }
 
-    .main {
+    .main-food,
+    .main-drink,
+    .main-dessert {
         display: flex;
         overflow-x: scroll;
     }
@@ -69,7 +71,7 @@
     .card-food,
     .card-drink,
     .card-dessert {
-        width: 202px;
+        width: 172px;
         height: 180px;
         background-color: #FFFFFF;
         box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.25);
@@ -82,7 +84,7 @@
     .card-dessert img,
     .card-drink img {
         margin: 2vw 2vw;
-        width: 30vw;
+        width: 32vw;
         height: 18vw;
         border-radius: 2vw;
         object-fit: cover;
@@ -135,14 +137,17 @@
         border-radius: 9px;
     }
 
-    .check.hidden {
+    .hidden {
+        visibility: hidden;
+    }
+
+    .check {
         color: #32B72F;
         width: 55%;
         height: 10%;
         position: absolute;
         bottom: 4%;
         left: 60%;
-        visibility: hidden;
     }
 
     footer {
