@@ -52,6 +52,6 @@ function greenButton() {
         let green = document.querySelector('footer .border');
         green.classList.add('greenButton');
         green.innerHTML = `Complete Order`
-        console.log(count)
+      
     }
 }
