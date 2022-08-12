@@ -128,14 +128,17 @@ function orderFood() {
 
 
 function orderConfirm() {
-
-    let mensagem = `    Olá, gostaria de fazer o pedido:
-                        - Prato: ${foodName}
-                        - Bebida:${drinkName}
-                        - Sobremesa: ${dessertName}
-                        Total: R$ 27.70
+console.log('funciona')
+    let mensage = `    Hi, I would like to order:\n
+                        - Dish: ${foodName}\n
+                        - Drink: ${drinkName}\n
+                        - Dessert: ${dessertName}\n
+                        Total: ${(valueFood + valueDrink + valueDessert).toLocaleString('en-US',{style:'currency', currency:'USD'})}\n
     
-                         Nome: Fulano
-                         Endereço: Rua...
+                         Name: ${clientName}\n
+                         Address: ${address}
     `
+    mensage = encodeURIComponent(mensage);
+    let whatsapp = `https://wa.me/5592995049656?text=`;
+    window.open(whatsapp + mensage)
 }
