@@ -127,9 +127,7 @@ function orderFood() {
 
 function orderConfirm() {
     console.log('funciona')
-    let mensage = `    Hi, I would like to order: \n- Dish: ${foodName}\n- Drink: ${drinkName} \n- Dessert: ${dessertName} \nTotal: ${(valueFood + valueDrink + valueDessert).toLocaleString('en-US', { style: 'currency', currency: 'USD' })} \n
-                         Name: ${clientName} \n
-                         Address: ${address}
+    let mensage = `    Hi, I would like to order:\n- Dish: ${foodName}\n- Drink: ${drinkName} \n- Dessert: ${dessertName}\nTotal: ${(valueFood + valueDrink + valueDessert).toLocaleString('en-US', { style: 'currency', currency: 'USD' })}\nName: ${clientName}\n            Address: ${address}
     `
     mensage = encodeURIComponent(mensage);
     let whatsapp = `https://wa.me/5592995049656?text=`;
