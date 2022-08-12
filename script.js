@@ -101,30 +101,41 @@ function orderFood() {
         const showModal = document.querySelector(".modal-container");
         showModal.classList.remove('ocult');
 
+
         let food = document.querySelector('.mealTitle');
-        food.innerHTML = `<li><div class="mealTitle">${foodName}</div></li>`
+        food.innerHTML = `<div class="mealTitle">${foodName}</div>`;
 
         let priceFood = document.querySelector('.price-food');
-        priceFood.innerHTML = ` <li><div class="price-food">$${valueFood.toFixed(2)}</div></li>`
+        priceFood.innerHTML = `<div class="price-food">$${valueFood.toFixed(2)}</div>`;
 
-        let drink = document.querySelector('.drinkTitle');
-        drink.innerHTML = `<li><div class="drinkTitle">${drinkName}</div></li>`
+        let drink = document.querySelector(".drinkTitle");
+        drink.innerHTML = `<div class="drinkTitle">${drinkName}</div>`;
 
-        let priceDrink = document.querySelector('.price-drinnk');
-        priceDrink.innerHTML = `<li><div class="price-drink">$${valueDrink.toFixed(2)}</div></li>`
-
+        let priceDrink = document.querySelector(".price-drink");
+        priceDrink.innerHTML = `<div class="price-drink">$${valueDrink.toFixed(2)}</div>`;
 
         let dessert = document.querySelector(".dessertTitle");
-        dessert.innerHTML = `<li> <div class="dessertTitle">${dessertName}</div></li>`
+        dessert.innerHTML = `<div class="dessertTitle">${dessertName}</div>`;
 
-        let priceDessert = document.querySelector(".price-dessert");
-        priceDessert.innerHTML = `<li><div class="price-dessert">$${valueDessert.toFixed(2)}</div></li>`
+        let dessertValue = document.querySelector(".price-dessert");
+        dessertValue.innerHTML = `<div class="price-dessert">$${valueDessert.toFixed(2)}</div>`;
 
-
-
-
-
-
+        total = document.querySelector(".value");
+        total.innerHTML = ` <div class="value">$${(valueFood + valueDrink + valueDessert).toFixed(2)}</div>`
     }
 
+}
+
+
+function orderConfirm() {
+
+    let mensagem = `    Olá, gostaria de fazer o pedido:
+                        - Prato: ${foodName}
+                        - Bebida:${drinkName}
+                        - Sobremesa: ${dessertName}
+                        Total: R$ 27.70
+    
+                         Nome: Fulano
+                         Endereço: Rua...
+    `
 }
