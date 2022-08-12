@@ -127,8 +127,8 @@ function orderFood() {
 
 function orderConfirm() {
     console.log('funciona')
-    let mensage = `    Hi, I would like to order:\n- Dish: ${foodName}\n\n- Drink: ${drinkName}\n\n- Dessert: ${dessertName}\n\nTotal: ${(valueFood + valueDrink + valueDessert).toLocaleString('en-US', { style: 'currency', currency: 'USD' })}\n\n
-                         Name: ${clientName}\n\n
+    let mensage = `    Hi, I would like to order: \n- Dish: ${foodName}\n- Drink: ${drinkName} \n- Dessert: ${dessertName} \nTotal: ${(valueFood + valueDrink + valueDessert).toLocaleString('en-US', { style: 'currency', currency: 'USD' })} \n
+                         Name: ${clientName} \n
                          Address: ${address}
     `
     mensage = encodeURIComponent(mensage);
