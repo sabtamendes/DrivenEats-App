@@ -128,12 +128,12 @@ function orderFood() {
 
 
 function orderConfirm() {
-console.log('funciona')
+    console.log('funciona')
     let mensage = `    Hi, I would like to order:\n
                         - Dish: ${foodName}\n
                         - Drink: ${drinkName}\n
                         - Dessert: ${dessertName}\n
-                        Total: ${(valueFood + valueDrink + valueDessert).toLocaleString('en-US',{style:'currency', currency:'USD'})}\n
+                        Total: ${(valueFood + valueDrink + valueDessert).toLocaleString('en-US', { style: 'currency', currency: 'USD' })}\n
     
                          Name: ${clientName}\n
                          Address: ${address}
@@ -141,4 +141,14 @@ console.log('funciona')
     mensage = encodeURIComponent(mensage);
     let whatsapp = `https://wa.me/5592995049656?text=`;
     window.open(whatsapp + mensage)
+}
+
+function orderCancel() {
+    const removeModal = document.querySelector(".modal-container");
+    removeModal.classList.add("ocult");
+    refreshPage();
+}
+
+function refreshPage() {
+    location.reload();
 }
