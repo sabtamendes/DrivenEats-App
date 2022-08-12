@@ -1,11 +1,9 @@
-let foodName;
-let drinkName;
-let dessertName;
+let foodName, drinkName, dessertName, clientName, address;
 let total = 0;
 let valueFood = 0;
 let valueDrink = 0;
 let valueDessert = 0;
-let clientName, address;
+
 
 
 
