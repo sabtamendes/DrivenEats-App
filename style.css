@@ -1,3 +1,6 @@
+
+
+/*
 * {
     box-sizing: border-box;
     flex-shrink: 1;
@@ -185,7 +188,7 @@ footer {
 
 
 .modal-container.ocult {
-    /*usei o sistema de classes para funcionar o modal*/
+   
     display: none;
 }
 
@@ -278,7 +281,7 @@ span.dessert {
     font-size: 22px;
     height: 50px;
 }
-
+*/
 
 @media(max-width:414px) {
     * {
@@ -355,12 +358,13 @@ span.dessert {
     .card-drink,
     .card-dessert {
         width: 178px;
-        height: 180px;
+        height: 188px;
         background-color: #FFFFFF;
         box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.25);
         border-radius: 9px;
         padding:8px;
         position: relative;
+        margin-left:5%;
     }
 
     .card-food img,
@@ -378,8 +382,8 @@ span.dessert {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 16.5px;
-        line-height: 19px;
+        font-size: 16.8px;
+        line-height: 20px;
         color: #333333;
         margin-left: 1%;
     }
@@ -391,7 +395,7 @@ span.dessert {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 300;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 30px;
         color: #A6A6A6;
         margin: 5% 1%;
@@ -403,10 +407,10 @@ span.dessert {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
+        font-size: 16.5px;
+        line-height: 28px;
         color: #000000;
-        margin: 9% 1%;
+        margin: auto 2px;
     }
 
     .card-dessert {
@@ -426,9 +430,9 @@ span.dessert {
     .check {
         color: #32B72F;
         width: 55%;
-        height: 10%;
+        height: 10.5%;
+        bottom:12px;
         position: absolute;
-        bottom: 5%;
         left: 60%;
     }
 
