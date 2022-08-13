@@ -74,7 +74,7 @@ function dessertCard(element, dessert, value) {
 
 function actionButton() {
 
-    if (count === 3) {
+    if (foodName !== undefined && drinkName !== undefined && dessertName !== undefined) {
         let green = document.querySelector('footer .border');
         green.classList.add('greenButton');
         green.innerHTML = `Complete Order`
