@@ -63,6 +63,7 @@ header h6 {
 .main-drink,
 .main-dessert {
     display: flex;
+    cursor:pointer;
 }
 
 
