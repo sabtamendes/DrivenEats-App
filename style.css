@@ -69,7 +69,7 @@ header h6 {
 .card-drink,
 .card-dessert {
     width: 180px;
-    height: 220px;
+    height: 200px;
     background-color: #FFFFFF;
     box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
@@ -324,7 +324,7 @@ span.dessert {
     }
 
     .title-meal {
-        margin: 35% 5% 8%;
+        margin: 33% 5% 2%;
         font-family: 'Righteous';
         font-size: 26px;
         line-height: 100%;
@@ -334,7 +334,7 @@ span.dessert {
 
     .title-drink,
     .title-dessert {
-        margin: 8% 5%;
+        margin: 8%  5% 2%;
         font-family: 'Righteous';
         font-size: 26px;
         line-height: 100%;
@@ -353,8 +353,8 @@ span.dessert {
     .card-food,
     .card-drink,
     .card-dessert {
-        width: 178px;
-        height: 188px;
+        width: 172px;
+        height: 180px;
         background-color: #FFFFFF;
         box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.25);
         border-radius: 9px;
@@ -404,7 +404,7 @@ span.dessert {
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
-        line-height: 28px;
+        line-height: 25px;
         color: #000000;
         margin: auto 2px;
     }
@@ -427,7 +427,7 @@ span.dessert {
         color: #32B72F;
         width: 55%;
         height: 10.5%;
-        bottom: 12px;
+        bottom: 8px;
         position: absolute;
         left: 60%;
     }
