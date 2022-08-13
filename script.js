@@ -86,7 +86,7 @@ function resetCards() {
     if (count !== 3) {
         const greenButton = document.querySelector(".border");
         greenButton.classList.remove('greenButton');
-        greenButton.innerHTML = `Select  3 items <br />to complete the order`;
+        greenButton.innerHTML = `Select the 3 items to<br/> complete the order`;
     }
 }
 

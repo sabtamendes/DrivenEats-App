@@ -306,7 +306,7 @@ span.dessert {
         top: 8px;
         font-family: 'Righteous';
         font-weight: 400;
-        font-size: 49px;
+        font-size: 44px;
         line-height: 55px;
         letter-spacing: -0.012em;
         color: #FFFFFF;
@@ -317,8 +317,8 @@ span.dessert {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 22.8px;
-        line-height: 38px;
+        font-size: 21px;
+        line-height: 30px;
         color: #FFFFFF;
         margin-left: 1.8%;
     }
@@ -492,10 +492,8 @@ span.dessert {
     }
 
     .modal {
-        width: 377px;
-        height: 353px;
         background: #50D074;
-        width: 20%;
+        width: 80%;
         min-width: 300px;
         border-radius: 10px;
         box-shadow: rgba(0, 0 0, 0.25);
@@ -545,7 +543,7 @@ span.dessert {
         color: #50D074;
         background-color: #FFFFFF;
         border-radius: 100px;
-        padding: 6%;
+        padding: 4%;
         border: none;
         margin-top: 15%;
     }
