@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #E5E5E5;
 }
 
 header {
@@ -48,7 +48,6 @@ header h6 {
     font-size: 26px;
     line-height: 100%;
     letter-spacing: 1.8%;
-    color: white;
 }
 
 .title-drink,
@@ -58,7 +57,6 @@ header h6 {
     font-size: 26px;
     line-height: 100%;
     letter-spacing: 1.8%;
-    color: white;
 }
 
 .main-food,
