@@ -6,7 +6,6 @@ let valueDessert = 0;
 
 
 
-
 let count = 0;
 
 function foodCard(element, food, value) {

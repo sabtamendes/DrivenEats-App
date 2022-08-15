@@ -64,7 +64,6 @@ header h6 {
     cursor: pointer;
 }
 
-
 .card-food,
 .card-drink,
 .card-dessert {
@@ -181,7 +180,6 @@ footer {
     background: #32B72F;
 }
 
-
 .modal-container.ocult {
 
     display: none;
@@ -232,7 +230,6 @@ footer {
     justify-content: space-between;
     margin: 16px 16px;
 }
-
 
 span.dessert {
     margin-bottom: 0;
@@ -394,7 +391,6 @@ span.dessert {
         font-size: 15.5px;
         line-height: 45px;
         color: #A6A6A6;
-
     }
 
     .card-food>p:nth-child(4),
