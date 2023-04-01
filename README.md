@@ -9,7 +9,7 @@
 <summary><strong>Instalação</strong></summary>
 
   ## 🛠️ Instalação 
-Para utillizar a aplicação, primeiro clone este repositório usando o comando:
+Para utillizar a aplicação, primeiro clone este repositório usando o comando no terminal:
 
 ```
 git clone https://github.com/seu-usuario/nome-do-projeto.git
